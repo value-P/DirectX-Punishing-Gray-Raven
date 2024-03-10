@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Client.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxAnimMesh.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxCube.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxEffect.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxMesh.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxNorTex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxPoint.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxPointInstance.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxPosTex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Client\Bin\Shader_VtxSuperDodgeEffect.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

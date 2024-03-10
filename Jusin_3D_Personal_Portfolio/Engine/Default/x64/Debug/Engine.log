@@ -1,0 +1,156 @@
+﻿  GameInstance.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\GameInstance.cpp(51,56): warning C4244: '=': 'const unsigned int'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\GameInstance.cpp(52,56): warning C4244: '=': 'const unsigned int'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Engine.vcxproj -> C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\Engine.dll
+  '//'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.
+  .\Engine\Public\Animation.h
+  .\Engine\Public\AnimEffectProp.h
+  .\Engine\Public\AnimModelProp.h
+  .\Engine\Public\Bone.h
+  .\Engine\Public\Bounding.h
+  .\Engine\Public\Bounding_AABB.h
+  .\Engine\Public\Bounding_OBB.h
+  .\Engine\Public\Bounding_Sphere.h
+  .\Engine\Public\BoxCom.h
+  .\Engine\Public\Camera.h
+  .\Engine\Public\CameraManager.h
+  .\Engine\Public\Cell.h
+  .\Engine\Public\CellBufferProp.h
+  .\Engine\Public\Channel.h
+  .\Engine\Public\Collider.h
+  .\Engine\Public\CollisionManager.h
+  .\Engine\Public\Component.h
+  .\Engine\Public\CubeProp.h
+  .\Engine\Public\CustomFont.h
+  .\Engine\Public\DebugDraw.h
+  .\Engine\Public\EffectMeshCom.h
+  .\Engine\Public\EffectProp.h
+  .\Engine\Public\Engine_Defines.h
+  .\Engine\Public\Engine_Enums.h
+  .\Engine\Public\Engine_Function.h
+  .\Engine\Public\Engine_Macro.h
+  .\Engine\Public\Engine_Struct.h
+  .\Engine\Public\Engine_Typedef.h
+  .\Engine\Public\FontManager.h
+  .\Engine\Public\GameInstance.h
+  .\Engine\Public\GameObject.h
+  .\Engine\Public\Graphic_Device.h
+  .\Engine\Public\ImguiBase.h
+  .\Engine\Public\Imgui_Manager.h
+  .\Engine\Public\Input_Device.h
+  .\Engine\Public\Layer.h
+  .\Engine\Public\Level.h
+  .\Engine\Public\Level_Manager.h
+  .\Engine\Public\Light.h
+  .\Engine\Public\Light_Manager.h
+  .\Engine\Public\Material.h
+  .\Engine\Public\MathUtils.h
+  .\Engine\Public\Mesh.h
+  .\Engine\Public\Navigation.h
+  .\Engine\Public\NavMeshManager.h
+  .\Engine\Public\NavMeshProp.h
+  .\Engine\Public\NonAnimEffectProp.h
+  .\Engine\Public\NonAnimModelProp.h
+  .\Engine\Public\Object_Manager.h
+  .\Engine\Public\ParticleSystem.h
+  .\Engine\Public\Picking_Manager.h
+  .\Engine\Public\PipeLine.h
+  .\Engine\Public\PointCom.h
+  .\Engine\Public\PointParticle.h
+  .\Engine\Public\PointProp.h
+  .\Engine\Public\PrimitiveComponent.h
+  .\Engine\Public\Property.h
+  .\Engine\Public\RandomManager.h
+  .\Engine\Public\RectProp.h
+  .\Engine\Public\Renderer.h
+  .\Engine\Public\RenderTarget.h
+  .\Engine\Public\Resource_Manager.h
+  .\Engine\Public\Shader.h
+  .\Engine\Public\SkeletalMeshCom.h
+  .\Engine\Public\SoundManager.h
+  .\Engine\Public\SpriteCom.h
+  .\Engine\Public\StaticMeshCom.h
+  .\Engine\Public\StringUtils.h
+  .\Engine\Public\Target_Manager.h
+  .\Engine\Public\TerrainCom.h
+  .\Engine\Public\TerrainProp.h
+  .\Engine\Public\Texture.h
+  .\Engine\Public\ThreadPool.h
+  .\Engine\Public\Timer.h
+  .\Engine\Public\Timer_Manager.h
+  .\Engine\Public\TrailBufferPop.h
+  .\Engine\Public\TrailCom.h
+  .\Engine\Public\Transform.h
+  .\Engine\Public\UIBase.h
+  .\Engine\Public\UIManager.h
+  .\Engine\Public\VIBuffer.h
+  .\Engine\Public\Effects11\d3dx11effect.h
+  .\Engine\Public\Effects11\d3dxGlobal.h
+  .\Engine\Public\Fmod\fmod.cs
+  .\Engine\Public\Fmod\fmod.h
+  .\Engine\Public\Fmod\fmod.hpp
+  .\Engine\Public\Fmod\fmod_codec.h
+  .\Engine\Public\Fmod\fmod_common.h
+  .\Engine\Public\Fmod\fmod_dsp.cs
+  .\Engine\Public\Fmod\fmod_dsp.h
+  .\Engine\Public\Fmod\fmod_dsp_effects.h
+  .\Engine\Public\Fmod\fmod_errors.cs
+  .\Engine\Public\Fmod\fmod_errors.h
+  .\Engine\Public\Fmod\fmod_output.h
+  .\Engine\Public\TK\Audio.h
+  .\Engine\Public\TK\BufferHelpers.h
+  .\Engine\Public\TK\CommonStates.h
+  .\Engine\Public\TK\DDSTextureLoader.h
+  .\Engine\Public\TK\DirectXHelpers.h
+  .\Engine\Public\TK\Effects.h
+  .\Engine\Public\TK\GamePad.h
+  .\Engine\Public\TK\GeometricPrimitive.h
+  .\Engine\Public\TK\GraphicsMemory.h
+  .\Engine\Public\TK\Keyboard.h
+  .\Engine\Public\TK\Model.h
+  .\Engine\Public\TK\Mouse.h
+  .\Engine\Public\TK\PostProcess.h
+  .\Engine\Public\TK\PrimitiveBatch.h
+  .\Engine\Public\TK\ScreenGrab.h
+  .\Engine\Public\TK\SimpleMath.h
+  .\Engine\Public\TK\SimpleMath.inl
+  .\Engine\Public\TK\SpriteBatch.h
+  .\Engine\Public\TK\SpriteFont.h
+  .\Engine\Public\TK\VertexTypes.h
+  .\Engine\Public\TK\WICTextureLoader.h
+  .\Engine\Public\TK\XboxDDSTextureLoader.h
+  116개 파일이 복사되었습니다.
+  .\Engine\Bin\Engine.dll
+  1개 파일이 복사되었습니다.
+  .\Engine\Bin\Engine.dll
+  1개 파일이 복사되었습니다.
+  .\Engine\Bin\Engine.lib
+  1개 파일이 복사되었습니다.
+  .\Engine\ThirdPartyLib\DirectXTK.lib
+  .\Engine\ThirdPartyLib\DirectXTKd.lib
+  .\Engine\ThirdPartyLib\Effects11.lib
+  .\Engine\ThirdPartyLib\Effects11d.lib
+  .\Engine\ThirdPartyLib\fmod64_vc.lib
+  5개 파일이 복사되었습니다.
+  .\Engine\Bin\ShaderFiles\Shader_Cell.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Defines.hlsli
+  .\Engine\Bin\ShaderFiles\Shader_PostProcess.hlsl
+  4개 파일이 복사되었습니다.
+  .\Engine\Bin\ShaderFiles\Shader_Cell.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Defines.hlsli
+  .\Engine\Bin\ShaderFiles\Shader_PostProcess.hlsl
+  4개 파일이 복사되었습니다.
+  .\Tool\Bin\AnimEventData\Mb1BruceloongMd010001.json
+  .\Tool\Bin\AnimEventData\Mb1StarknightMd010001.json
+  .\Tool\Bin\AnimEventData\Mo1YeyaMd000001.json
+  .\Tool\Bin\AnimEventData\R3WeilaMd010021 (merge).json
+  .\Tool\Bin\AnimEventData\Yuanding.json
+  5개 파일이 복사되었습니다.
+  .\Tool\Bin\EffectEventData\Mb1BruceloongMd010001.json
+  .\Tool\Bin\EffectEventData\Mb1StarknightMd010001.json
+  .\Tool\Bin\EffectEventData\R3WeilaMd010021 (merge).json
+  3개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.

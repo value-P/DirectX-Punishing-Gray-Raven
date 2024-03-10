@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{9c149bc3-4b5f-4af3-ba90-f9aa98eaff3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{087ec486-0fe2-46d4-b0c1-75eb5ddee8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{7fdd5d8c-73fa-40ec-84ca-bf7ca3c0285f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{3dece978-2a0e-40e3-8f17-a38ef1456d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Logo">
+      <UniqueIdentifier>{af39e426-529a-4d07-876c-708dd655fee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading">
+      <UniqueIdentifier>{462b8580-0462-4f25-903b-13050a7d8e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading\Loader">
+      <UniqueIdentifier>{413540de-1e84-47de-be57-888d76163269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{afbc7f78-be4a-4f4d-9afe-8ceef2856844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain">
+      <UniqueIdentifier>{7be62c66-afcb-4fe3-8822-289c4f1ced9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\GamePlay">
+      <UniqueIdentifier>{e76362ca-7651-4d9a-983f-52cfe36db55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cameras">
+      <UniqueIdentifier>{2f179018-6de7-43c9-8d9f-22edf2839870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cameras\Camera_Free">
+      <UniqueIdentifier>{81a9dfa0-80aa-419b-8455-3a9c5450b293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable">
+      <UniqueIdentifier>{73eb1383-901b-492c-a1d0-a3a18e7e69d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Playable">
+      <UniqueIdentifier>{f32d2293-bfad-4fc0-90e8-3e5ddc63a6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cameras\Camera_Combined">
+      <UniqueIdentifier>{7cfab78c-257b-4598-8529-5af9d800b5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\StaticObjects">
+      <UniqueIdentifier>{86d5f8e9-8731-475e-8e3c-a17605426d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\StaticObjects\Map">
+      <UniqueIdentifier>{dd826bbe-535b-40ff-94bc-19efca4c77f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\StaticObjects\Weapon">
+      <UniqueIdentifier>{d1b1e88d-475f-4071-98c0-b14bc6bf3fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Boss">
+      <UniqueIdentifier>{dd635203-625b-4768-a4fb-73fe5f1bcf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{ef2461ba-58e4-4c7b-a952-c5a3d22b6f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster">
+      <UniqueIdentifier>{9d7a0d89-76f9-4ca2-a220-222ad70200c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster\Normal">
+      <UniqueIdentifier>{44d1f40a-2e3f-47b4-85b3-34ca749e3dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster\Normal\TableSawMonster">
+      <UniqueIdentifier>{08c7f057-9291-4d96-b658-b06b4ebb618c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster\Normal\SmallRobot">
+      <UniqueIdentifier>{4f86f741-1866-4809-b270-a6c1d59be8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster\Boss">
+      <UniqueIdentifier>{24b3a1fe-8ecd-475a-a10f-b18e0ccb9dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\EffectObject">
+      <UniqueIdentifier>{777202cc-b38e-476f-837d-1f557c013afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Playable\Luxiya">
+      <UniqueIdentifier>{f9a6d829-1812-4371-afbd-ffc40c7c5ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Playable\Vera">
+      <UniqueIdentifier>{d31a9a63-8209-4051-b5d9-8e1acfc6190a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster\Boss\Pusin">
+      <UniqueIdentifier>{1fa91fca-5134-4d0e-9e7f-901c39491a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Movable\Monster\Boss\StartKnight">
+      <UniqueIdentifier>{45510904-972a-4f89-a93a-4dabe0057e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\EffectObject\ThowObject">
+      <UniqueIdentifier>{90942483-418d-4c1e-82fe-e883240c0fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\StaticObjects\CameraReference">
+      <UniqueIdentifier>{812f1de8-5036-4d0f-beca-b11a38284c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\EffectObject\LaserObject">
+      <UniqueIdentifier>{68feb436-ac4a-431e-b0ac-bb039feb0865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Boss2">
+      <UniqueIdentifier>{43e24b48-3aa2-4bfd-a5ee-78ccd1ce9ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\StaticObjects\SkyBox">
+      <UniqueIdentifier>{159f6271-c5f5-44f1-aa8f-9f81bb912c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\StaticObjects\BackGround">
+      <UniqueIdentifier>{3cec198f-ff0e-4ffd-b110-a37df3e22a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX">
+      <UniqueIdentifier>{748e7d58-0810-4313-bfc5-51f4fb7a8bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\MeshFX">
+      <UniqueIdentifier>{0cf5a16e-5ca1-4b10-8ca2-54bb8d32d93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\ParticleFX">
+      <UniqueIdentifier>{f9fb0620-17ab-4856-b171-6af476fcd965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI">
+      <UniqueIdentifier>{50762014-2b5f-4362-aad1-5ee5f1c3206d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Static">
+      <UniqueIdentifier>{1546b7c5-b5f9-46f4-bef6-398f8c203817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Slider">
+      <UniqueIdentifier>{4f5713d0-30a3-45cc-a527-0e3684cf1a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Button">
+      <UniqueIdentifier>{c6323f7a-99de-42d9-9f02-1251ad9b2155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.Utils">
+      <UniqueIdentifier>{53948231-8b41-4494-93b4-0b0a266b9cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Button\SkillBtn">
+      <UniqueIdentifier>{a60c7d83-c27f-48ce-ba29-7706d25fed9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Button\SkillBtnContainer">
+      <UniqueIdentifier>{b686235f-b82f-42b1-acc4-5d26b843ed6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Button\UtimateSkillBtn">
+      <UniqueIdentifier>{cd2e5d51-5a5f-4619-a6ce-0bcbfd732c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\Trail">
+      <UniqueIdentifier>{b73c13c6-740a-4b5a-9090-07c1c4d58691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\ChosanFX">
+      <UniqueIdentifier>{8da8a6fd-1fe4-4a85-890f-7cf566cd99ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Cameras\ActionCamera">
+      <UniqueIdentifier>{b1544835-fc40-4578-bbad-ca12137c82b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\TexFX">
+      <UniqueIdentifier>{434c4281-743c-4619-b880-ed8bf9dc5d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\EventTrigger">
+      <UniqueIdentifier>{ea23b59d-90b6-4a07-a452-dd05523d690c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\EventTrigger\MonsterSpawner">
+      <UniqueIdentifier>{71471688-dd1d-4ef8-983c-0cfc8f27fab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\EventTrigger\ScceneEnder">
+      <UniqueIdentifier>{d570ef59-6c62-4dba-a866-55832e43f964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Font">
+      <UniqueIdentifier>{39d1436f-463c-4b01-9b1d-fb5d574a3139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\DistortFX">
+      <UniqueIdentifier>{41849789-1b30-4269-95af-c24105f5183f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Rotation">
+      <UniqueIdentifier>{b280bce6-6ab1-498a-964c-1bc87d114bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Text">
+      <UniqueIdentifier>{ed896659-3e27-4b5e-b85a-cb9971e69320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\RadialSlider">
+      <UniqueIdentifier>{8b8fea1a-5f38-4878-b312-d579eebe656f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\WorldUI">
+      <UniqueIdentifier>{3b8fbe8f-71ca-49e9-8d14-f390d5e75946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\FX\MotionTrail">
+      <UniqueIdentifier>{2d8806aa-c049-4f0d-95d5-c5f23d2bdabe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>02.GameObject\StaticObjects\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Free.h">
+      <Filter>02.GameObject\Cameras\Camera_Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MovableObject.h">
+      <Filter>02.GameObject\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Combined.h">
+      <Filter>02.GameObject\Cameras\Camera_Combined</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Weapon.h">
+      <Filter>02.GameObject\StaticObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TableSawMonster.h">
+      <Filter>02.GameObject\Movable\Monster\Normal\TableSawMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SmallRobot.h">
+      <Filter>02.GameObject\Movable\Monster\Normal\SmallRobot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Boss.h">
+      <Filter>01.Levels\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterBase.h">
+      <Filter>02.GameObject\Movable\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\EffectObject.h">
+      <Filter>02.GameObject\EffectObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MapObject.h">
+      <Filter>02.GameObject\StaticObjects\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayableObject.h">
+      <Filter>02.GameObject\Movable\Playable\Luxiya</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayableVera.h">
+      <Filter>02.GameObject\Movable\Playable\Vera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Pushin.h">
+      <Filter>02.GameObject\Movable\Monster\Boss\Pusin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_StarKnight.h">
+      <Filter>02.GameObject\Movable\Monster\Boss\StartKnight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ThrowObject.h">
+      <Filter>02.GameObject\EffectObject\ThowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CameraReference.h">
+      <Filter>02.GameObject\StaticObjects\CameraReference</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LaserObject.h">
+      <Filter>02.GameObject\EffectObject\LaserObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Boss2.h">
+      <Filter>01.Levels\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SkyBox.h">
+      <Filter>02.GameObject\StaticObjects\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FX.h">
+      <Filter>02.GameObject\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MeshEffect.h">
+      <Filter>02.GameObject\FX\MeshFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ParticleEffect.h">
+      <Filter>02.GameObject\FX\ParticleFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FXPool.h">
+      <Filter>96.Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Slider.h">
+      <Filter>02.GameObject\UI\Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SkillBtn.h">
+      <Filter>02.GameObject\UI\Button\SkillBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SkillBtnContainer.h">
+      <Filter>02.GameObject\UI\Button\SkillBtnContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\UltimateSkillBtn.h">
+      <Filter>02.GameObject\UI\Button\UtimateSkillBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TrailFX.h">
+      <Filter>02.GameObject\FX\Trail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MonsterSpawner.h">
+      <Filter>02.GameObject\EventTrigger\MonsterSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ChosanEffect.h">
+      <Filter>02.GameObject\FX\ChosanFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ActionCamera.h">
+      <Filter>02.GameObject\Cameras\ActionCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TextureFX.h">
+      <Filter>02.GameObject\FX\TexFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\EventTrigger.h">
+      <Filter>02.GameObject\EventTrigger\ScceneEnder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FontUI.h">
+      <Filter>02.GameObject\UI\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DefaultUI.h">
+      <Filter>02.GameObject\UI\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DistortEffect.h">
+      <Filter>02.GameObject\FX\DistortFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\DistortionPointRect.h">
+      <Filter>02.GameObject\FX\DistortFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RotationUI.h">
+      <Filter>02.GameObject\UI\Rotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TextUI.h">
+      <Filter>02.GameObject\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RadialSliderUI.h">
+      <Filter>02.GameObject\UI\RadialSlider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\WorldUI.h">
+      <Filter>02.GameObject\UI\WorldUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MotionTrail.h">
+      <Filter>02.GameObject\FX\MotionTrail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>02.GameObject\StaticObjects\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Free.cpp">
+      <Filter>02.GameObject\Cameras\Camera_Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MovableObject.cpp">
+      <Filter>02.GameObject\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Combined.cpp">
+      <Filter>02.GameObject\Cameras\Camera_Combined</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Weapon.cpp">
+      <Filter>02.GameObject\StaticObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TableSawMonster.cpp">
+      <Filter>02.GameObject\Movable\Monster\Normal\TableSawMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SmallRobot.cpp">
+      <Filter>02.GameObject\Movable\Monster\Normal\SmallRobot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Boss.cpp">
+      <Filter>01.Levels\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterBase.cpp">
+      <Filter>02.GameObject\Movable\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\EffectObject.cpp">
+      <Filter>02.GameObject\EffectObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MapObject.cpp">
+      <Filter>02.GameObject\StaticObjects\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayableObject.cpp">
+      <Filter>02.GameObject\Movable\Playable\Luxiya</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayableVera.cpp">
+      <Filter>02.GameObject\Movable\Playable\Vera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Pushin.cpp">
+      <Filter>02.GameObject\Movable\Monster\Boss\Pusin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_StarKnight.cpp">
+      <Filter>02.GameObject\Movable\Monster\Boss\StartKnight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ThrowObject.cpp">
+      <Filter>02.GameObject\EffectObject\ThowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CameraReference.cpp">
+      <Filter>02.GameObject\StaticObjects\CameraReference</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LaserObject.cpp">
+      <Filter>02.GameObject\EffectObject\LaserObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Boss2.cpp">
+      <Filter>01.Levels\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SkyBox.cpp">
+      <Filter>02.GameObject\StaticObjects\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FX.cpp">
+      <Filter>02.GameObject\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MeshEffect.cpp">
+      <Filter>02.GameObject\FX\MeshFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ParticleEffect.cpp">
+      <Filter>02.GameObject\FX\ParticleFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FXPool.cpp">
+      <Filter>96.Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Slider.cpp">
+      <Filter>02.GameObject\UI\Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SkillBtn.cpp">
+      <Filter>02.GameObject\UI\Button\SkillBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SkillBtnContainer.cpp">
+      <Filter>02.GameObject\UI\Button\SkillBtnContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\UltimateSkillBtn.cpp">
+      <Filter>02.GameObject\UI\Button\UtimateSkillBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TrailFX.cpp">
+      <Filter>02.GameObject\FX\Trail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MonsterSpawner.cpp">
+      <Filter>02.GameObject\EventTrigger\MonsterSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ChosanEffect.cpp">
+      <Filter>02.GameObject\FX\ChosanFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ActionCamera.cpp">
+      <Filter>02.GameObject\Cameras\ActionCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TextureFX.cpp">
+      <Filter>02.GameObject\FX\TexFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\EventTrigger.cpp">
+      <Filter>02.GameObject\EventTrigger\ScceneEnder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FontUI.cpp">
+      <Filter>02.GameObject\UI\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DefaultUI.cpp">
+      <Filter>02.GameObject\UI\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DistortEffect.cpp">
+      <Filter>02.GameObject\FX\DistortFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\DistortionPointRect.cpp">
+      <Filter>02.GameObject\FX\DistortFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RotationUI.cpp">
+      <Filter>02.GameObject\UI\Rotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TextUI.cpp">
+      <Filter>02.GameObject\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RadialSliderUI.cpp">
+      <Filter>02.GameObject\UI\RadialSlider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\WorldUI.cpp">
+      <Filter>02.GameObject\UI\WorldUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MotionTrail.cpp">
+      <Filter>02.GameObject\FX\MotionTrail</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxEffect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPoint.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxSuperDodgeEffect.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

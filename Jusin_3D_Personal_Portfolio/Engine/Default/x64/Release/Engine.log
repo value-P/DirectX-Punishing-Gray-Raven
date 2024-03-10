@@ -1,0 +1,299 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\Shader_Cell.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl(242,11-90): warning X3206: implicit truncation of vector type
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl(239,38-42): warning X3556: integer modulus may be much slower, try using uints if possible.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl(239,67-71): warning X3556: integer divides may be much slower, try using uints if possible.
+  
+  compilation object save succeeded; see C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\Shader_Deferred.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\Shader_PostProcess.cso
+  Animation.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Animation.cpp(99,32): warning C4267: '=': 'size_t'에서 'Engine::_int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AnimEffectProp.cpp
+  Bone.cpp
+  Bounding.cpp
+  Bounding_AABB.cpp
+  Bounding_OBB.cpp
+  Bounding_Sphere.cpp
+  BoxCom.cpp
+  Camera.cpp
+  CameraManager.cpp
+  Cell.cpp
+  Channel.cpp
+  Collider.cpp
+  CollisionManager.cpp
+  Component.cpp
+  CellBufferProp.cpp
+  CubeProp.cpp
+  CustomFont.cpp
+  DebugDraw.cpp
+  EffectMeshCom.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\EffectMeshCom.cpp(38,20): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  컴파일하고 있습니다...
+  EffectProp.cpp
+  FontManager.cpp
+  ImguiBase.cpp
+  Imgui_Manager.cpp
+  Input_Device.cpp
+  Light.cpp
+  Light_Manager.cpp
+  Material.cpp
+  MathUtils.cpp
+  Mesh.cpp
+  Navigation.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Public\NavMeshProp.h(20,45): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '../Private/Navigation.cpp'을(를) 컴파일하는 중)
+  
+  NavMeshManager.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Public\NavMeshProp.h(20,45): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '../Private/NavMeshManager.cpp'을(를) 컴파일하는 중)
+  
+  NavMeshProp.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Public\NavMeshProp.h(20,45): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '../Private/NavMeshProp.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\NavMeshProp.cpp(69,120): warning C4267: '인수': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\NavMeshProp.cpp(73,31): warning C4267: '=': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NonAnimEffectProp.cpp
+  ParticleSystem.cpp
+  PointCom.cpp
+  PointParticle.cpp
+  PointProp.cpp
+  RandomManager.cpp
+  RenderTarget.cpp
+  컴파일하고 있습니다...
+  SkeletalMeshCom.cpp
+  SoundManager.cpp
+  StaticMeshCom.cpp
+  AnimModelProp.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\AnimModelProp.cpp(49,13): warning C4267: '=': 'size_t'에서 'Engine::_int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Picking_Manager.cpp
+  PipeLine.cpp
+  Property.cpp
+  GameInstance.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\GameInstance.cpp(51,56): warning C4244: '=': 'const unsigned int'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\GameInstance.cpp(52,56): warning C4244: '=': 'const unsigned int'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObject.cpp
+  Graphic_Device.cpp
+  Layer.cpp
+  Level.cpp
+  Level_Manager.cpp
+  Object_Manager.cpp
+  RectProp.cpp
+  PrimitiveComponent.cpp
+  Renderer.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(54,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(58,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(62,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(66,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(70,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(74,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(78,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(82,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(86,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(88,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(90,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(94,9): warning C4244: '인수': 'Engine::_float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(192,25): warning C4244: '=': 'Engine::_float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\Renderer.cpp(193,26): warning C4244: '=': 'Engine::_float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Resource_Manager.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Public\NavMeshProp.h(20,45): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '../Private/Resource_Manager.cpp'을(를) 컴파일하는 중)
+  
+  Shader.cpp
+  SpriteCom.cpp
+  컴파일하고 있습니다...
+  NonAnimModelProp.cpp
+  StringUtils.cpp
+C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Private\StringUtils.cpp(5,17): warning C4267: '초기화 중': 'size_t'에서 'Engine::_int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Target_Manager.cpp
+  TerrainProp.cpp
+  TerrainCom.cpp
+  Texture.cpp
+  ThreadPool.cpp
+  Timer.cpp
+  Timer_Manager.cpp
+  TrailBufferPop.cpp
+  TrailCom.cpp
+  Transform.cpp
+  UIBase.cpp
+  UIManager.cpp
+  VIBuffer.cpp
+  Engine_Struct.cpp
+     ../Bin\Engine.lib 라이브러리 및 ../Bin\Engine.exp 개체를 생성하고 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 9145 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+Effects11.lib(EffectAPI.obj) : warning LNK4099: '' PDB를 'Effects11.lib(EffectAPI.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectNonRuntime.obj) : warning LNK4099: '' PDB를 'Effects11.lib(EffectNonRuntime.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectLoad.obj) : warning LNK4099: '' PDB를 'Effects11.lib(EffectLoad.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(d3dxGlobal.obj) : warning LNK4099: '' PDB를 'Effects11.lib(d3dxGlobal.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectReflection.obj) : warning LNK4099: '' PDB를 'Effects11.lib(EffectReflection.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11.lib(EffectRuntime.obj) : warning LNK4099: '' PDB를 'Effects11.lib(EffectRuntime.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(SpriteBatch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(SpriteFont.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(SpriteFont.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(PrimitiveBatch.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(PrimitiveBatch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(WICTextureLoader.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(DDSTextureLoader.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(DDSTextureLoader.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BufferHelpers.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(BufferHelpers.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(CommonStates.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(CommonStates.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(VertexTypes.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(VertexTypes.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(pch.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(pch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK.lib(BinaryReader.obj) : warning LNK4099: '' PDB를 'DirectXTK.lib(BinaryReader.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Engine.vcxproj -> C:\Users\wormq\Desktop\Jusin\Dx11FrameWork\Engine\Bin\Engine.dll
+  '//'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.
+  .\Engine\Public\Animation.h
+  .\Engine\Public\AnimEffectProp.h
+  .\Engine\Public\AnimModelProp.h
+  .\Engine\Public\Bone.h
+  .\Engine\Public\Bounding.h
+  .\Engine\Public\Bounding_AABB.h
+  .\Engine\Public\Bounding_OBB.h
+  .\Engine\Public\Bounding_Sphere.h
+  .\Engine\Public\BoxCom.h
+  .\Engine\Public\Camera.h
+  .\Engine\Public\CameraManager.h
+  .\Engine\Public\Cell.h
+  .\Engine\Public\CellBufferProp.h
+  .\Engine\Public\Channel.h
+  .\Engine\Public\Collider.h
+  .\Engine\Public\CollisionManager.h
+  .\Engine\Public\Component.h
+  .\Engine\Public\CubeProp.h
+  .\Engine\Public\CustomFont.h
+  .\Engine\Public\DebugDraw.h
+  .\Engine\Public\EffectMeshCom.h
+  .\Engine\Public\EffectProp.h
+  .\Engine\Public\Engine_Defines.h
+  .\Engine\Public\Engine_Enums.h
+  .\Engine\Public\Engine_Function.h
+  .\Engine\Public\Engine_Macro.h
+  .\Engine\Public\Engine_Struct.h
+  .\Engine\Public\Engine_Typedef.h
+  .\Engine\Public\FontManager.h
+  .\Engine\Public\GameInstance.h
+  .\Engine\Public\GameObject.h
+  .\Engine\Public\Graphic_Device.h
+  .\Engine\Public\ImguiBase.h
+  .\Engine\Public\Imgui_Manager.h
+  .\Engine\Public\Input_Device.h
+  .\Engine\Public\Layer.h
+  .\Engine\Public\Level.h
+  .\Engine\Public\Level_Manager.h
+  .\Engine\Public\Light.h
+  .\Engine\Public\Light_Manager.h
+  .\Engine\Public\Material.h
+  .\Engine\Public\MathUtils.h
+  .\Engine\Public\Mesh.h
+  .\Engine\Public\Navigation.h
+  .\Engine\Public\NavMeshManager.h
+  .\Engine\Public\NavMeshProp.h
+  .\Engine\Public\NonAnimEffectProp.h
+  .\Engine\Public\NonAnimModelProp.h
+  .\Engine\Public\Object_Manager.h
+  .\Engine\Public\ParticleSystem.h
+  .\Engine\Public\Picking_Manager.h
+  .\Engine\Public\PipeLine.h
+  .\Engine\Public\PointCom.h
+  .\Engine\Public\PointParticle.h
+  .\Engine\Public\PointProp.h
+  .\Engine\Public\PrimitiveComponent.h
+  .\Engine\Public\Property.h
+  .\Engine\Public\RandomManager.h
+  .\Engine\Public\RectProp.h
+  .\Engine\Public\Renderer.h
+  .\Engine\Public\RenderTarget.h
+  .\Engine\Public\Resource_Manager.h
+  .\Engine\Public\Shader.h
+  .\Engine\Public\SkeletalMeshCom.h
+  .\Engine\Public\SoundManager.h
+  .\Engine\Public\SpriteCom.h
+  .\Engine\Public\StaticMeshCom.h
+  .\Engine\Public\StringUtils.h
+  .\Engine\Public\Target_Manager.h
+  .\Engine\Public\TerrainCom.h
+  .\Engine\Public\TerrainProp.h
+  .\Engine\Public\Texture.h
+  .\Engine\Public\ThreadPool.h
+  .\Engine\Public\Timer.h
+  .\Engine\Public\Timer_Manager.h
+  .\Engine\Public\TrailBufferPop.h
+  .\Engine\Public\TrailCom.h
+  .\Engine\Public\Transform.h
+  .\Engine\Public\UIBase.h
+  .\Engine\Public\UIManager.h
+  .\Engine\Public\VIBuffer.h
+  .\Engine\Public\Effects11\d3dx11effect.h
+  .\Engine\Public\Effects11\d3dxGlobal.h
+  .\Engine\Public\Fmod\fmod.cs
+  .\Engine\Public\Fmod\fmod.h
+  .\Engine\Public\Fmod\fmod.hpp
+  .\Engine\Public\Fmod\fmod_codec.h
+  .\Engine\Public\Fmod\fmod_common.h
+  .\Engine\Public\Fmod\fmod_dsp.cs
+  .\Engine\Public\Fmod\fmod_dsp.h
+  .\Engine\Public\Fmod\fmod_dsp_effects.h
+  .\Engine\Public\Fmod\fmod_errors.cs
+  .\Engine\Public\Fmod\fmod_errors.h
+  .\Engine\Public\Fmod\fmod_output.h
+  .\Engine\Public\TK\Audio.h
+  .\Engine\Public\TK\BufferHelpers.h
+  .\Engine\Public\TK\CommonStates.h
+  .\Engine\Public\TK\DDSTextureLoader.h
+  .\Engine\Public\TK\DirectXHelpers.h
+  .\Engine\Public\TK\Effects.h
+  .\Engine\Public\TK\GamePad.h
+  .\Engine\Public\TK\GeometricPrimitive.h
+  .\Engine\Public\TK\GraphicsMemory.h
+  .\Engine\Public\TK\Keyboard.h
+  .\Engine\Public\TK\Model.h
+  .\Engine\Public\TK\Mouse.h
+  .\Engine\Public\TK\PostProcess.h
+  .\Engine\Public\TK\PrimitiveBatch.h
+  .\Engine\Public\TK\ScreenGrab.h
+  .\Engine\Public\TK\SimpleMath.h
+  .\Engine\Public\TK\SimpleMath.inl
+  .\Engine\Public\TK\SpriteBatch.h
+  .\Engine\Public\TK\SpriteFont.h
+  .\Engine\Public\TK\VertexTypes.h
+  .\Engine\Public\TK\WICTextureLoader.h
+  .\Engine\Public\TK\XboxDDSTextureLoader.h
+  116개 파일이 복사되었습니다.
+  .\Engine\Bin\Engine.dll
+  1개 파일이 복사되었습니다.
+  .\Engine\Bin\Engine.dll
+  1개 파일이 복사되었습니다.
+  .\Engine\Bin\Engine.lib
+  1개 파일이 복사되었습니다.
+  .\Engine\ThirdPartyLib\DirectXTK.lib
+  .\Engine\ThirdPartyLib\DirectXTKd.lib
+  .\Engine\ThirdPartyLib\Effects11.lib
+  .\Engine\ThirdPartyLib\Effects11d.lib
+  .\Engine\ThirdPartyLib\fmod64_vc.lib
+  5개 파일이 복사되었습니다.
+  .\Engine\Bin\ShaderFiles\Shader_Cell.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Defines.hlsli
+  .\Engine\Bin\ShaderFiles\Shader_PostProcess.hlsl
+  4개 파일이 복사되었습니다.
+  .\Engine\Bin\ShaderFiles\Shader_Cell.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl
+  .\Engine\Bin\ShaderFiles\Shader_Defines.hlsli
+  .\Engine\Bin\ShaderFiles\Shader_PostProcess.hlsl
+  4개 파일이 복사되었습니다.
+  .\Tool\Bin\AnimEventData\Mb1BruceloongMd010001.json
+  .\Tool\Bin\AnimEventData\Mb1StarknightMd010001.json
+  .\Tool\Bin\AnimEventData\Mo1YeyaMd000001.json
+  .\Tool\Bin\AnimEventData\R3WeilaMd010021 (merge).json
+  .\Tool\Bin\AnimEventData\Yuanding.json
+  5개 파일이 복사되었습니다.
+  .\Tool\Bin\EffectEventData\Mb1BruceloongMd010001.json
+  .\Tool\Bin\EffectEventData\Mb1StarknightMd010001.json
+  .\Tool\Bin\EffectEventData\R3WeilaMd010021 (merge).json
+  3개 파일이 복사되었습니다.
+  0개 파일이 복사되었습니다.
