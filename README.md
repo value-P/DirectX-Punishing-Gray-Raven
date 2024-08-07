@@ -14,7 +14,7 @@
 
 <p dir="auto"><br></p>
 
-<h1 tabindex="-1" class="heading-element" dir="auto">게임 사진</h1>
+<h1 tabindex="-1" class="heading-element" dir="auto">하이라이트</h1>
 <img src="https://github.com/user-attachments/assets/9780308a-dbc5-46e9-9d17-4a21fd857735" width="40%" style="max-width: 100%;">
 <img src="https://github.com/user-attachments/assets/9d169b59-4512-404c-ad20-710fdd90a14c" width="40%" style="max-width: 100%;">
 <img src="https://github.com/user-attachments/assets/13764c62-5141-4804-89f9-c0957180f5f7" width="40%" style="max-width: 100%;">
